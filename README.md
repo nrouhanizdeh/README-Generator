@@ -19,17 +19,11 @@
   ## Usage
   1. run ```node index.js``` in terminal. 2. Respond to the questions your are prompted with. 3. If you get a "Success!" message at the end, a README-output.md file get generated in the same directory as you run index.js
 
-  ## Tests
-  
-
   ## Contribute
-  Please submit [bugs and feature requests](https://github.com/nrouhanizadeh/README-Generator/issues)
-
-  ## License
-  Academic Free License v3.0
+  Please submit [bugs and feature requests](https://github.com/nrouhanizdeh/README-Generator/issues)
 
   ## Questions
   For more information, please visit [https://github.com/negin.rouhanizadeh@gmail.com](https://github.com/negin.rouhanizadeh@gmail.com).
-  [negin.rouhanizadeh@gmail.com](mailto:negin.rouhanizadeh@gmail.com) with any additional questions or comments.
+  You can also contact us at [negin.rouhanizadeh@gmail.com](mailto:negin.rouhanizadeh@gmail.com) with any additional questions or comments.
 
   
