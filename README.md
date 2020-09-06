@@ -23,7 +23,7 @@
   Please submit [bugs and feature requests](https://github.com/nrouhanizdeh/README-Generator/issues)
 
   ## Questions
-  For more information, please visit [https://github.com/negin.rouhanizadeh@gmail.com](https://github.com/negin.rouhanizadeh@gmail.com).
+  For more information, please visit [https://github.com/nrouhanizadeh](https://github.com/nrouhanizadeh).
   You can also contact us at [negin.rouhanizadeh@gmail.com](mailto:negin.rouhanizadeh@gmail.com) with any additional questions or comments.
 
   
