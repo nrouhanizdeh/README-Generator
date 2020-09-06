@@ -96,9 +96,7 @@ inquirer.prompt([
 
 
   var output = `
-  #${data.title}
-  [![Feature Requests](https://${data.username}/github/issues/Microsoft/vscode/feature-request.svg)](https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
-  [![Bugs](https://${data.username}/github/issues/Microsoft/vscode/bug.svg)](https://github.com/Microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+  # ${data.title}
 
   # Table of Contents
   * [Description](#Description)
@@ -109,25 +107,25 @@ inquirer.prompt([
   * [License](#License)
   * [Questions](#questions)
   
-  #Description
+  # Description
   ${data.description}
 
-  #Installation
+  # Installation
   ${data.installation}
   
-  #Usage
+  # Usage
   ${data.usage}
 
-  #Test Instructions
+  # Test Instructions
   ${data.test}
 
-  #Contribute
+  # Contribute
   ${data.contribute}
 
-  #License
+  # License
   ${data.stack}
 
-  #Questions
+  # Questions
   For more information, please visit [https://github.com/${data.email}](https://github.com/${data.email}).
   [${data.email}](mailto:${data.email}) with any additional questions or comments.
 
