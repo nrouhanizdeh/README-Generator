@@ -24,6 +24,6 @@
 
   ## Questions
   For more information, please visit [https://github.com/negin.rouhanizadeh@gmail.com](https://github.com/negin.rouhanizadeh@gmail.com).
-  [negin.rouhanizadeh@gmail.com](mailto:negin.rouhanizadeh@gmail.com) with any additional questions or comments.
+  You can also contact us at [negin.rouhanizadeh@gmail.com](mailto:negin.rouhanizadeh@gmail.com) with any additional questions or comments.
 
   
