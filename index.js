@@ -31,7 +31,13 @@ inquirer.prompt([
     type: "input",
     name: "usage",
     message: "What is the project usage?"
-  },  {
+  },
+  {
+    type: "input",
+    name: "test",
+    message: "What are the test instructions?"
+  },  
+  {
     type: "input",
     name: "contribute",
     message: "How can users contibute to the project?"
@@ -90,24 +96,40 @@ inquirer.prompt([
 
 
   var output = `
-  # ${data.title}
+  #${data.title}
+  [![Feature Requests](https://${data.username}/github/issues/Microsoft/vscode/feature-request.svg)](https://github.com/Microsoft/vscode/issues?q=is%3Aopen+is%3Aissue+label%3Afeature-request+sort%3Areactions-%2B1-desc)
+  [![Bugs](https://${data.username}/github/issues/Microsoft/vscode/bug.svg)](https://github.com/Microsoft/vscode/issues?utf8=✓&q=is%3Aissue+is%3Aopen+label%3Abug)
+
+  # Table of Contents
+  * [Description](#Description)
+  * [Installation](#Unstallation)
+  * [Usage](#Usage)
+  * [Tests Instructions](#Tests)
+  * [Contribute](#contribute)
+  * [License](#License)
+  * [Questions](#questions)
   
-  ## Description
+  #Description
   ${data.description}
 
-  ## Installation
+  #Installation
   ${data.installation}
   
-  ## Usage
+  #Usage
   ${data.usage}
 
-  ## Contribute
+  #Test Instructions
+  ${data.test}
+
+  #Contribute
   ${data.contribute}
 
-  ## License
+  #License
   ${data.stack}
 
-  ## Contact
+  #Questions
+  For more information, please visit [https://github.com/${data.email}](https://github.com/${data.email}).
+  [${data.email}](mailto:${data.email}) with any additional questions or comments.
 
   `
 
