@@ -116,7 +116,7 @@ inquirer.prompt([
   ${data.stack}
 
   ## Questions
-  For more information, please visit [https://github.com/${data.email}](https://github.com/${data.email}).
+  For more information, please visit [https://github.com/${data.username}](https://github.com/${data.username}).
   You can also contact us at [${data.email}](mailto:${data.email}) with any additional questions or comments.
 
   `
