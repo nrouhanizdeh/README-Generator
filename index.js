@@ -2,6 +2,7 @@
 var inquirer = require("inquirer");
 var fs = require('fs');
 
+// prompt user 
 inquirer.prompt([
   {
     type: "input",
@@ -84,11 +85,10 @@ inquirer.prompt([
   }
 ]).then(function(data) {
 
-
   var output = `
   # ${data.title}
 
-  # Table of Contents
+  ## Table of Contents
   * [Description](#Description)
   * [Installation](#Unstallation)
   * [Usage](#Usage)
@@ -97,25 +97,25 @@ inquirer.prompt([
   * [License](#License)
   * [Questions](#questions)
   
-  # Description
+  ## Description
   ${data.description}
 
-  # Installation
+  ## Installation
   ${data.installation}
   
-  # Usage
+  ## Usage
   ${data.usage}
 
-  # Test Instructions
+  ## Tests
   ${data.test}
 
-  # Contribute
+  ## Contribute
   ${data.contribute}
 
-  # License
+  ## License
   ${data.stack}
 
-  # Questions
+  ## Questions
   For more information, please visit [https://github.com/${data.email}](https://github.com/${data.email}).
   [${data.email}](mailto:${data.email}) with any additional questions or comments.
 
