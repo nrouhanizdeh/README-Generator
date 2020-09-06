@@ -81,16 +81,6 @@ inquirer.prompt([
       "The Unlicense",
       "zLib License"
     ]
-  },
-  {
-    type: "list",
-    message: "What is your preferred method of communication?",
-    name: "contact",
-    choices: [
-      "email",
-      "phone",
-      "telekinesis"
-    ]
   }
 ]).then(function(data) {
 
