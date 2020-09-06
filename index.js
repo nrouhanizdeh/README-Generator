@@ -117,11 +117,11 @@ inquirer.prompt([
 
   ## Questions
   For more information, please visit [https://github.com/${data.email}](https://github.com/${data.email}).
-  [${data.email}](mailto:${data.email}) with any additional questions or comments.
+  You can also contact us at [${data.email}](mailto:${data.email}) with any additional questions or comments.
 
   `
 
-  fs.writeFile("README.md", output, function(err) {
+  fs.writeFile("README-output.md", output, function(err) {
 
     if (err) {
       return console.log(err);
